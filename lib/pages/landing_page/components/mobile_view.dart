@@ -1,6 +1,9 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:jonyintlbd/pages/landing_page/components/about_us.dart';
 import 'package:jonyintlbd/pages/landing_page/components/banner.dart';
+import 'package:jonyintlbd/pages/landing_page/components/services.dart';
 import 'package:jonyintlbd/utils/size_config.dart';
 
 class MobileView extends StatelessWidget {
@@ -12,11 +15,8 @@ class MobileView extends StatelessWidget {
       child: Column(
         children: [
           BannerImg(),
-          SizedBox(height: SizeConfig.blockSizeVertical! * 10),
-          AboutUs(),
-          SizedBox(
-            height: SizeConfig.blockSizeHorizontal! * 5,
-          )
+          AboutUs(deviceType: 'Mobile'),
+          Services(),
         ],
       ),
     );

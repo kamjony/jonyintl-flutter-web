@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Jony International Agency',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       home: const LandingPage(),
     );
   }
