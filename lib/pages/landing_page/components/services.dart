@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jonyintlbd/constants/space_utils.dart';
 import 'package:jonyintlbd/pages/landing_page/components/hover_effect_icon.dart';
-import 'package:jonyintlbd/utils/colors.dart';
 import 'package:jonyintlbd/utils/size_config.dart';
 
 class Services extends StatelessWidget {

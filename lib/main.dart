@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Jony International Agency',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,

@@ -5,6 +5,7 @@ class AppTheme {
 
   static ThemeData lightTheme = ThemeData(
       brightness: Brightness.light,
+      fontFamily: 'Poppins',
       textTheme: const TextTheme(
         // headline1: TextStyle(color: Colors.white),
         // headline2: TextStyle(color: Colors.white),
@@ -33,6 +34,7 @@ class AppTheme {
 
   static ThemeData darkTheme = ThemeData(
       brightness: Brightness.dark,
+      fontFamily: 'Poppins',
       textTheme: const TextTheme(
         headline1: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
         headline3: TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
